@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,500&family=Raleway:wght@200;300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: antiquewhite; 
+}
+
+h1 {
+    font-family: 'Gelasio', sans-serif;
+    color: rgb(29, 30, 32);
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.title-work h2 {
+    margin-top: 80px;
+    font-family: 'Gelasio', sans-serif;
+    text-align: center;
+    color: rgb(29, 30, 32);
+    font-size: 40px;
+    font-style: italic;
+    width: 100% ;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(30, 122, 228);
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+
+#logoA{
+    width: 80px;
+}
+
+
+#subtitulo{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+h2{
+    color: rgb(65, 154, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+
+.sub-text{
+    font-family:'Raleway' ;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#barra{
+    background-color: aliceblue;
+    opacity: 0.8;
+
+}
+
+
+#navAzul {
+    color: rgb(30, 122, 228);
+}
+
+#logoAni{
+
+    padding-left: 40px;
+    color: rgb(30, 122, 228);
+}
+
+
+
+/* WORK BOxes */
+
+
+
+.work-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+}
+
+
+.trabajo{
+    width: 90%;
+    height: auto;
+    box-shadow: 2px black;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+   
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+
+
+  .containerAll{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/flor.jpg");
+    background-color: antiquewhite; 
+    background-position: 100px 50px right 2em bottom 2em;
+    background-repeat: no-repeat;
+    background-size:auto;
+    }
+  
+  .text {
+    width: 100%;
+    color: rgb(46, 41, 41);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .main-work{
+    background-image: url("../img/flor.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: initial;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: absolute;
+    
+  }
+
+
+/* CONTACT PAGE */
+  .main-contact{
+    background-image: url(../img/hojas.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .quote{
+    text-align: center;
+  }
+
+    .quote h2{
+        color: rgb(27, 18, 41);
+        font-family: 'Gelasio', sans-serif;
+        text-align: center;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .quote cite{
+        font-weight: bold;
+    }
+
+
+
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items:center ;
+}
+
+    .footer img{
+        width: 45px;
+        padding: 10px;
+    }
+
+/*social media index page*/
+
+    .social-media{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        align-items:center ;
+
+    }
+        .social-media img{
+            width: 45px;
+            padding: 10px;
+        }
+
+    
+
+/* ABOUT ME PAGE */
+
+.profileImage{
+    padding: 15px;
+}
+
+    .profileImage img{
+        margin-top: 80px;
+        border-radius:6%;
+    }
+
+    .aboutMeText{
+        padding: 20px;
+        text-align: center;
+    }
+
+.aboutMeBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main-about{
+    
+    background-image: url(/img/florAmarilla2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.mySkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 122, 228);
+    border-radius:6%;
+    padding: 15px;
+    margin: 15px;
+}
+    .mySkills img{
+       background-color: rgb(30, 122, 228);
+    }
+
+
+.blueText{
+    color: rgb(30, 122, 228);
+    font-weight: 600;
+}
+
+.orangeText{
+    color: rgb(238, 148, 13);
+    font-weight: 600;
+}
+
+.boxSkills{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+    .boxSkills img{
+        padding: 10px;
+        width: 50px;
+    }
+
+figcaption{
+    color: white;
+    text-align:inherit;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+
+    .navbar .navbar-nav .nav-link:hover{
+        background-color: rgb(109, 233, 233);
+    }
+    
+    .navbar{
+        padding: 0;
+    }
+    
+    .navbar .navbar-nav .nav-link{
+        padding: 1em;
+    }
+
+    #barra{
+        padding: 0px;
+        background-color: aliceblue;
+        opacity: 0.8;
+    
+    }
+    
+
+
+    .containerAll{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background-image: url("../img/flor.jpg");
+                background-color: antiquewhite; 
+                height: auto;
+                background-position: left;
+                background-repeat: no-repeat;
+                background-size:auto;
+                }
+
+
+
+    .profileImage{
+        width: 40%;
+    }
+
+    .text{
+        width: 100%;
+        display:flex;
+        text-align: left;
+        height: 900px;
+        align-content:center;
+        justify-content: center;
+        padding-left: 50px;
+    
+    }
+
+    #titulo{
+        font-size: 7rem;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    #subtitulo{
+        font-size: 1.6rem;
+    }
+
+    .sub-text{
+        text-align: start;
+    }
+
+
+    .aboutMeBox{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        height: 800px;
+    }
+
+    .aboutMeText{
+        padding-top: 110px;
+        width: 50%;
+        align-content: center;
+        text-align: justify;
+
+    }
+
+
+    .work-content{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .title-work h2{
+        padding-top: 60px;
+    }
+
+
+    .work-box{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .quote{
+        margin-left: 50px;
+        width: 45%;
+      }
+
+      .quote h2{
+        margin: 0px;
+      }
+
+      cite{
+        text-align: right;
+        margin-left: 200px;
+    }
+
+    .main-contact {
+        height: 600px;
+        
+    }
+
+
+        .main-contact p{
+            margin-top: 50px;
+            margin-bottom: 0px;
+            font-family: 'Raleway', sans-serif;
+            font-style: italic;
+        }
+
+
+
+    .social-media{
+        display: flex;
+        justify-content: left;
+        margin-top: 10px;
+        align-items:center ;
+
+    }
+
+
+
+
+}
