@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;300&display=swap');
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,500&family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,500&family=Raleway:wght@200;300&display=swap');
 
 
 
@@ -147,15 +147,15 @@ h3{
     background-size:auto;
     }
   
-  .text {
+    .text {
     width: 100%;
     color: rgb(46, 41, 41);
     font-size: 40px;
     text-align: center;
     padding: 10px;
-  }
+    }
 
-  .main-work{
+    .main-work{
     background-image: url("../img/flor.jpg");
     background-repeat: no-repeat;
     background-size:auto;
@@ -164,11 +164,11 @@ h3{
     margin-top: 0px;
     position: absolute;
     
-  }
+    }
 
 
 /* CONTACT PAGE */
-  .main-contact{
+    .main-contact{
     background-image: url(../img/hojas.jpg);
     background-size: cover;
     background-position: bottom;
@@ -179,11 +179,11 @@ h3{
     width: 100%;
     padding-top: 80px;
     text-align: center;
-  }
+    }
 
-  .quote{
+    .quote{
     text-align: center;
-  }
+    }
 
     .quote h2{
         color: rgb(27, 18, 41);
@@ -304,12 +304,6 @@ figcaption{
 
 
 
-
-
-
-
-
-
 /* MEDIA QUERIES */
 
 @media (min-width: 768px){
@@ -416,13 +410,13 @@ figcaption{
     .quote{
         margin-left: 50px;
         width: 45%;
-      }
+    }
 
-      .quote h2{
+    .quote h2{
         margin: 0px;
-      }
+    }
 
-      cite{
+    cite{
         text-align: right;
         margin-left: 200px;
     }
