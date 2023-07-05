@@ -101,6 +101,19 @@ h3{
 /* WORK BOxes */
 
 
+.main-work{
+    background-image: url("../img/pared.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.work-content{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
 
 .work-box{
     width: 100%;
@@ -108,6 +121,13 @@ h3{
     flex-direction: column;
     height: auto;
     justify-content: center;
+    position: relative;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
 }
 
 
@@ -118,8 +138,9 @@ h3{
     margin: 15px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
-   
 }
+
+
 
 .text{
     display: flex;
@@ -127,14 +148,11 @@ h3{
     text-align: center;
     margin-top: 5px;
 }
-.container {
-    position: relative;
-    width: 50%;
-  }
 
 
 
-  .containerAll{
+
+.containerAll{
     padding-top: 80px;
     display: flex;
     flex-direction: column;
@@ -146,7 +164,7 @@ h3{
     background-repeat: no-repeat;
     background-size:auto;
     }
-  
+
     .text {
     width: 100%;
     color: rgb(46, 41, 41);
@@ -155,16 +173,7 @@ h3{
     padding: 10px;
     }
 
-    .main-work{
-    background-image: url("../img/flor.jpg");
-    background-repeat: no-repeat;
-    background-size:auto;
-    background-position: initial;
-    padding-top: 0px;
-    margin-top: 0px;
-    position: absolute;
-    
-    }
+
 
 
 /* CONTACT PAGE */
@@ -252,8 +261,7 @@ h3{
 }
 
 .main-about{
-    
-    background-image: url(/img/florAmarilla2.jpg);
+    background-image: url("../img/florAmarilla2.jpg");
     background-size: cover;
     background-position: top;
 }
@@ -268,7 +276,7 @@ h3{
     margin: 15px;
 }
     .mySkills img{
-       background-color: rgb(30, 122, 228);
+    background-color: rgb(30, 122, 228);
     }
 
 
@@ -391,8 +399,10 @@ figcaption{
 
 
     .work-content{
+        width: 100%;
         margin-top: 0px;
         padding-top: 0px;
+        overflow-x: hidden;
     }
 
     .title-work h2{
@@ -403,7 +413,9 @@ figcaption{
     .work-box{
         display: flex;
         flex-direction: row;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 20px 0px 20px;
+        margin: 0px 20px 0px 20px;
+
 
     }
 
